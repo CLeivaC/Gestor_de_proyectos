@@ -20,3 +20,4 @@ D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\bin\Deb
 D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\obj\Debug\net8.0\Gestion de proyectos.csproj.AssemblyReference.cache
 D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\obj\Debug\net8.0\Gestion .BB40355A.Up2Date
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\obj\Debug\net8.0\Gestion de proyectos.sourcelink.json
