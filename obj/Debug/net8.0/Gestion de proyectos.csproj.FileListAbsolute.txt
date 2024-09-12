@@ -1,0 +1,22 @@
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\bin\Debug\net8.0\Gestion de proyectos.exe
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\bin\Debug\net8.0\Gestion de proyectos.deps.json
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\bin\Debug\net8.0\Gestion de proyectos.runtimeconfig.json
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\bin\Debug\net8.0\Gestion de proyectos.dll
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\bin\Debug\net8.0\Gestion de proyectos.pdb
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\obj\Debug\net8.0\Gestion de proyectos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\obj\Debug\net8.0\Gestion de proyectos.AssemblyInfoInputs.cache
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\obj\Debug\net8.0\Gestion de proyectos.AssemblyInfo.cs
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\obj\Debug\net8.0\Gestion de proyectos.csproj.CoreCompileInputs.cache
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\obj\Debug\net8.0\Gestion de proyectos.dll
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\obj\Debug\net8.0\refint\Gestion de proyectos.dll
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\obj\Debug\net8.0\Gestion de proyectos.pdb
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\obj\Debug\net8.0\Gestion de proyectos.genruntimeconfig.cache
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\obj\Debug\net8.0\ref\Gestion de proyectos.dll
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\obj\Debug\net8.0\Gestion de proyectos.csproj.AssemblyReference.cache
+D:\Users\Usuario\Programs_VisualStudio\source\repos\Gestion de proyectos\obj\Debug\net8.0\Gestion .BB40355A.Up2Date
