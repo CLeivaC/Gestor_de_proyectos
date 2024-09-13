@@ -42,5 +42,30 @@ namespace Gestion_de_proyectos.Views
 
             _proyectoService.AgregarProyecto(proyecto);
         }
+
+        public void MostrarProyectosConTareas()
+        {
+            try
+            {
+                List<Proyecto> proyectos = _proyectoService.ObtenerProyectosConTareas();
+                foreach(var proyecto in proyectos)
+                {
+                    Console.WriteLine($"Proyecto: {proyecto.Nombre} ({proyecto.FechaInicio.ToShortDateString()} - {proyecto.FechaFin.ToShortDateString()})");
+                    Console.WriteLine($"Estado: {proyecto.Estado}");
+                    Console.WriteLine("Tareas:");
+
+                    foreach(var tarea in proyecto.tareas)
+                    {
+                        Console.WriteLine($"   - {tarea.descripcion} (Fecha Entrega: {tarea.FechaEntrega.ToShortDateString()}, Estado: {tarea.Estado})");
+                    }
+                    Console.WriteLine();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error al mostrar los proyectos y tareas: " + ex.Message);
+                throw;
+            }
+        }
     }
 }

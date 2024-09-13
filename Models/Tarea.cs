@@ -15,6 +15,8 @@ namespace Gestion_de_proyectos.Models
         public DateTime FechaEntrega { get; set; }
         public string Estado { get; set; }
 
+        public Tarea() { }
+
         public Tarea(int proyectoID, string descripcion, DateTime fechaCreacion, DateTime fechaEntrega, string estado)
         {
             this.ProyectoID = proyectoID;

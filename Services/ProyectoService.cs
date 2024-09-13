@@ -32,5 +32,21 @@ namespace Gestion_de_proyectos.Services
                 Console.WriteLine("Ha ocurrido un error");
             }
         }
+
+        public List<Proyecto> ObtenerProyectosConTareas()
+        {
+            try
+            {
+                
+                List<Proyecto> proyectosConTareas = _proyectoRepository.MostrarProyectosYTareas();
+
+                return proyectosConTareas;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error en ProyectoService: " + ex.Message);
+                throw;
+            }
+        }
     }
 }

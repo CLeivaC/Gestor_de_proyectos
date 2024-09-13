@@ -55,6 +55,9 @@ namespace Gestion_de_proyectos
                 case 2:
                     tareaView.Agregar_Tareas();
                     break;
+                case 3:
+                    proyectoView.MostrarProyectosConTareas();
+                    break;
                 default:
                     break;
             }
