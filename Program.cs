@@ -16,15 +16,48 @@ namespace Gestion_de_proyectos
     {
         static void Main(string[] args)
         {
-            ProyectoRepository repository = new ProyectoRepository();
-            ProyectoService proyectoService = new ProyectoService(repository);
+
+            menuPrincipal();
+           
+
+
+
+
+        }
+
+        private static void menuPrincipal() 
+        {
+            ProyectoRepository Prepository = new ProyectoRepository();
+            ProyectoService proyectoService = new ProyectoService(Prepository);
             ProyectoView proyectoView = new ProyectoView(proyectoService);
 
-            proyectoView.Agregar_Proyectos();
+            TareaRepository Trepository = new TareaRepository();
+            TareaService tareaService = new TareaService(Trepository);
+            TareaView tareaView = new TareaView(tareaService);
 
+           
 
+            Console.WriteLine("1. Agregar proyecto nuevo");
+            Console.WriteLine("2. Agregar tarea nueva");
+            Console.WriteLine("3. Ver todos los proyectos y tareas asociadas");
+            Console.WriteLine("4. Actualizar estado de tarea");
+            Console.WriteLine("5. Eliminar una tarea");
+            String opcionS = Console.ReadLine();
+            int opcion;
 
+            int.TryParse(opcionS, out opcion);
 
+            switch (opcion)
+            {
+                case 1:
+                    proyectoView.Agregar_Proyectos();
+                    break;
+                case 2:
+                    tareaView.Agregar_Tareas();
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }
