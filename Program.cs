@@ -58,6 +58,9 @@ namespace Gestion_de_proyectos
                 case 3:
                     proyectoView.MostrarProyectosConTareas();
                     break;
+                case 4:
+                    tareaView.ActualizarEstadoTarea();
+                    break;
                 default:
                     break;
             }

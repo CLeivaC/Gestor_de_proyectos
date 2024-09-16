@@ -47,5 +47,24 @@ namespace Gestion_de_proyectos.Views
 
             _tareaService.AgregarTarea(tarea);
         }
+
+        public void ActualizarEstadoTarea()
+        {
+            Console.WriteLine("Dime el id de la tarea que quieres actualizar:");
+            string id = Console.ReadLine();
+            int idTarea;
+            if (!int.TryParse(id, out idTarea))
+            {
+                Console.WriteLine("ID de tarea inválido.");
+                return;
+            }
+
+            Console.WriteLine("Actualiza el estado de la tarea " + idTarea + ":");
+            string estado = Console.ReadLine();
+
+            Tarea tarea = new Tarea();
+            tarea.Estado = estado;  
+            _tareaService.ActualizarEstadoTarea(idTarea, tarea);
+        }
     }
 }

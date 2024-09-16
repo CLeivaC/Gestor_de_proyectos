@@ -28,5 +28,18 @@ namespace Gestion_de_proyectos.Services
                 Console.WriteLine("Ha ocurrido un error");
             }
         }
+
+        public void ActualizarEstadoTarea(int TareaID,Tarea tarea)
+        {
+            string respuesta = _repository.ActualizarEstadoTarea(TareaID,tarea);
+            if (respuesta == "Ok")
+            {
+                Console.WriteLine($"Tarea ID: {TareaID} ha sido actualizada correctamente");
+            }
+            else 
+            {
+                Console.WriteLine($"Tarea ID: {TareaID} no se ha podido actualizar correctamente");
+            }
+        }
     }
 }

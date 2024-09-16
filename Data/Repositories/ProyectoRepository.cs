@@ -71,7 +71,7 @@ namespace Gestion_de_proyectos.Data.Repositories
                     // Si hemos encontrado un nuevo proyecto
                     if (proyectoId != proyectoIdAnterior)
                     {
-                        // Añadimos el proyecto anterior a la lista
+                        
                         if (proyectoActual != null)
                         {
                             listaProyectos.Add(proyectoActual);
