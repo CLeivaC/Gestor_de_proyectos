@@ -41,5 +41,19 @@ namespace Gestion_de_proyectos.Services
                 Console.WriteLine($"Tarea ID: {TareaID} no se ha podido actualizar correctamente");
             }
         }
+
+        public void EliminarTarea(int TareaID)
+        {
+            string respuesta = _repository.EliminarTarea(TareaID);
+
+            if(respuesta == "Ok") 
+            {
+                Console.WriteLine($"Tarea ID: {TareaID} ha sido eliminada correctamente");
+            }
+            else
+            {
+                Console.WriteLine($"Tarea ID: {TareaID} no se ha podido eliminar correctamente");
+            }
+        }
     }
 }

@@ -78,5 +78,34 @@ namespace Gestion_de_proyectos.Data.Repositories
             return respuesta;
            
         }
+
+        public string EliminarTarea(int TareaID)
+        {
+            try
+            {
+                Sqlcon = ConexionDB.crearInstanciaDB().CrearConexionDB();
+
+                SqlCommand comando = new SqlCommand("SP_ELIMINAR_TAREA", Sqlcon);
+
+                comando.CommandType = CommandType.StoredProcedure;
+
+                comando.Parameters.Add("@nTareaID", SqlDbType.Int).Value = TareaID;
+
+                Sqlcon.Open();
+
+                respuesta = comando.ExecuteNonQuery() >= 1 ? "Ok" : "Ha ocurrido un error al eliminar la tarea";
+
+            }
+            catch (Exception ex)
+            {
+                respuesta = ex.Message;
+                throw;
+            }
+            finally 
+            {
+                if (Sqlcon.State == ConnectionState.Open) Sqlcon.Close();
+            }
+            return respuesta;
+        }
     }
 }

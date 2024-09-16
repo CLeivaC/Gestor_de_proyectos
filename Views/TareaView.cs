@@ -66,5 +66,20 @@ namespace Gestion_de_proyectos.Views
             tarea.Estado = estado;  
             _tareaService.ActualizarEstadoTarea(idTarea, tarea);
         }
+
+        public void EliminarTarea()
+        {
+            Console.WriteLine("Dime el id de la tarea que quieres eliminar:");
+            string id = Console.ReadLine();
+            int idTarea;
+
+            if(!int.TryParse(id,out idTarea))
+            {
+                Console.WriteLine("ID de tarea no válido");
+                return;
+            }
+
+            _tareaService.EliminarTarea(idTarea);
+        }
     }
 }

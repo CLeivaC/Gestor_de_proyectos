@@ -61,6 +61,9 @@ namespace Gestion_de_proyectos
                 case 4:
                     tareaView.ActualizarEstadoTarea();
                     break;
+                case 5:
+                    tareaView.EliminarTarea();
+                    break;
                 default:
                     break;
             }
